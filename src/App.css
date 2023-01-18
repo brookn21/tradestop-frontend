@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.listing {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.post{
+  padding: 15px;
+}
+
+.ui.card{
+  height: 350px;
+}
+
+.ui.medium.circular.image{
+  padding: 15px;
+}
+
+.userInfo{
+  display: flex;
+}
+
+.pfp {
+  width: 50px;
+  height: 50px;
+}
+
+.bio {
+   width: 250px;
+  /* height: 50px;  */
+  margin-left: 10px;
+  clear: both;
+}
+
+/* .username{
+  margin-bottom: 20px;
+} */
+
+
+
+/* .ui.card.shoecard .image.shoeimg img {
+  /* Set the width and height to a smaller size */
+  /* max-width: 100px; */
+
+.ui.card.shoecard{
+  padding: 15px;
+  /* display: flex; */
+  height: 405px;
+}
+
+.shoe{
+  padding: 15px;
+  /* display: flex  ; */
+}
+
+.shoeHolder{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav{
+  height: 80px;
+  width: 100%;
+  background-color: #34495e;
+}
+
+a.logo{
+  font-size: 35px;
+  font-weight: bold;
   color: white;
+  padding: 0 100px;
+  line-height: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul{
+  float: right;
+  margin-right: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav li{
+  display: inline-block;
+  margin: 0 80px;
+  line-height: 80px;
+}
+
+
+nav Link{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid red;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+Link.navLink, Link:hover{
+  border: 1px solid white;
+  transition: .5s;
 }
